@@ -149,8 +149,8 @@ function parseXMPObject(xmpObject) {
 function parseNodeAttributesAsTags(attributes) {
     const tags = {};
 
-    if(typeof attributes !== 'object') {
-      return tags;
+    if (typeof attributes !== 'object') {
+        return tags;
     }
 
     for (const name in attributes) {
@@ -246,8 +246,8 @@ function getClearTextKey(key) {
 function parseNodeChildrenAsTags(children) {
     const tags = {};
 
-    if(typeof children !== 'object') {
-      return tags;
+    if (typeof children !== 'object') {
+        return tags;
     }
 
     for (const name in children) {
